@@ -5,12 +5,18 @@ import Login from '@/view/Login.vue'
 import { isLoggedIn } from '../components/userState'
 import FireBaseLogin from '../view/FireBaseLogin.vue'
 import FireRegister from '../view/FireBaseRegister.vue'
+import AddBookView from '@/view/AddBookView.vue'
 
 const routes = [
   {
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/addbook',
+    name: 'addBook',
+    component: AddBookView
   },
   {
     path: '/FireLogin',

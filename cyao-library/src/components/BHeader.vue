@@ -18,6 +18,9 @@
         <li  class="nav-item">
           <router-link to="/FireLogin" class="nav-link" active-class="active">FireBase Login</router-link>
         </li>
+        <li  class="nav-item">
+          <router-link to="/addBook" class="nav-link" active-class="active">Add book</router-link>
+        </li>
       </ul>
       <div @click="logout_account">
         <button > Logout</button>

@@ -7,7 +7,7 @@ import LibraryRegistrationForm from './components/LibraryRegistrationForm.vue'
 <template>
   <div class="main-container">
     <header>
-      <BHeader />
+      <BHeader></BHeader>
     </header>
     <main class="main-box">
       <Router-view></Router-view>
