@@ -25,7 +25,6 @@ import LibraryRegistrationForm from './components/LibraryRegistrationForm.vue'
   /* background-color: #e0bfbf; */
   border-radius: 10px;
 }
-
 /* Class selectors */
 .form {
   text-align: center;

@@ -21,6 +21,16 @@
         <li  class="nav-item">
           <router-link to="/addBook" class="nav-link" active-class="active">Add book</router-link>
         </li>
+        <li  class="nav-item">
+          <router-link to="/weather" class="nav-link" active-class="active">Get weather</router-link>
+        </li>
+        <li  class="nav-item">
+          <router-link to="/countBookApi" class="nav-link" active-class="active">Count Book Api</router-link>
+        </li>
+        <li  class="nav-item">
+          <router-link to="/GetAllBook" class="nav-link" active-class="active">Get All Book API</router-link>
+        </li>
+  
       </ul>
       <div @click="logout_account">
         <button > Logout</button>

@@ -6,12 +6,29 @@ import { isLoggedIn } from '../components/userState'
 import FireBaseLogin from '../view/FireBaseLogin.vue'
 import FireRegister from '../view/FireBaseRegister.vue'
 import AddBookView from '@/view/AddBookView.vue'
-
+import WeatherView from '@/view/WeatherView.vue'
+import CountBookAPI from '@/view/CountBookAPI.vue'
+import GetAllBookView from '@/view/GetAllBookView.vue'
 const routes = [
   {
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/GetAllBook',
+    name: 'GetAllBook',
+    component: GetAllBookView
+  },
+  {
+    path: '/weather',
+    name: 'weather',
+    component: WeatherView
+  },
+  {
+    path: '/countBookApi',
+    name: 'countBookApi',
+    component: CountBookAPI
   },
   {
     path: '/addbook',
